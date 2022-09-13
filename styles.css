@@ -13,6 +13,7 @@ body {
 
 form {
   text-align: center;
+  border-radius: 25px;
   padding: 20px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 6px rgb(155, 155, 155);
@@ -25,6 +26,7 @@ input {
   border-bottom: 1px solid rgb(73, 73, 73);
   outline: none;
   text-align: center;
+  padding: 0.6rem;
 }
 
 input::placeholder {
@@ -32,10 +34,13 @@ input::placeholder {
 }
 textarea {
   outline: none;
+  border-radius: 10px;
 }
 
 select {
   cursor: pointer;
+  font-size: 0.8rem;
+  padding: 5px;
 }
 
 .button {
@@ -46,6 +51,10 @@ select {
   font-size: 1.3rem;
   color: rgb(41, 40, 40);
   background-color: rgb(243, 224, 205);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 .button:hover {
