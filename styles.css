@@ -12,21 +12,31 @@ body {
 }
 
 form {
+  width: 400px;
   text-align: center;
   border-radius: 25px;
   padding: 20px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 6px rgb(155, 155, 155);
+  box-shadow: 0px 0px 7px rgb(155, 155, 155);
 }
 
 input {
   width: 300px;
   height: 1.3rem;
   border: none;
-  border-bottom: 1px solid rgb(73, 73, 73);
+  border-bottom: 1px solid rgb(184, 184, 184);
   outline: none;
   text-align: center;
   padding: 0.6rem;
+  font-size: 1.2rem;
+}
+
+input:hover {
+  background-color: #fdf5da;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 input::placeholder {
@@ -35,18 +45,25 @@ input::placeholder {
 textarea {
   outline: none;
   border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  width: 300px;
 }
 
 select {
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  width: 325px;
+  color: rgb(77, 76, 76);
 }
 
 .button {
   border: none;
   cursor: pointer;
-  height: 2.4rem;
+  height: 2.7rem;
   border-radius: 4px;
   font-size: 1.3rem;
   color: rgb(41, 40, 40);
@@ -55,6 +72,7 @@ select {
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  width: 325px;
 }
 
 .button:hover {
