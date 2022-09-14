@@ -32,7 +32,7 @@ input {
 }
 
 input:hover {
-  border-color: #fdf5da;
+  border: 2px solid #f3b37b;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
